@@ -1,0 +1,42 @@
+/* line 5, /home/krodriguez/Programacion/personal/rails/digital-jaguar/dj-export-csv/app/assets/stylesheets/books.scss */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* line 10, /home/krodriguez/Programacion/personal/rails/digital-jaguar/dj-export-csv/app/assets/stylesheets/books.scss */
+table {
+  margin-top: 20px;
+}
+
+/* line 14, /home/krodriguez/Programacion/personal/rails/digital-jaguar/dj-export-csv/app/assets/stylesheets/books.scss */
+button {
+  color: white;
+  padding: 10px 5px;
+}
+
+/* line 19, /home/krodriguez/Programacion/personal/rails/digital-jaguar/dj-export-csv/app/assets/stylesheets/books.scss */
+.backgroun-blue {
+  background-color: blue;
+}
+
+/* line 23, /home/krodriguez/Programacion/personal/rails/digital-jaguar/dj-export-csv/app/assets/stylesheets/books.scss */
+.backgroun-red {
+  background-color: red;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

@@ -1,7 +1,4 @@
-# DESARROLLO
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# ENTORNO DE DESARROLLO
 
 ## Prerequisitos
 - Ruby 2.1

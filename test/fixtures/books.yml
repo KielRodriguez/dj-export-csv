@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: <%= Faker::Book.title %>
+  author: <%= Faker::Book.author %>
+  publisher: <%= Faker::Book.publisher %>
+  genere: <%= Faker::Book.genere %>
+
+two:
+  title: <%= Faker::Book.title %>
+  author: <%= Faker::Book.author %>
+  publisher: <%= Faker::Book.publisher %>
+  genere: <%= Faker::Book.genere %>

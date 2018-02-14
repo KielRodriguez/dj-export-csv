@@ -1,0 +1,25 @@
+// Place all the styles related to the Books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin-top: 20px;
+}
+
+button {
+    color: white;
+    padding: 10px 5px;
+}
+
+.backgroun-blue {
+    background-color: blue;
+}
+
+.backgroun-red {
+    background-color: red;
+}

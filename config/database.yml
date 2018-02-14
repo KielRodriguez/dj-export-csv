@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: secretpassword
+  host: 172.17.0.2
+
+development:
+  <<: *default
+  database: export_csv_development
+
+test:
+  <<: *default
+  database: export_csv_test
+
+production:
+  <<: *default
+  database: export_csv_production
+  username: <%= ENV['POSTGRES_PASSWORD'] %>
+  password: <%= ENV['POSTGRES_PASSWORD'] %>

@@ -1,9 +1,10 @@
 <h1>Listado de libro</h1>
 <hr />
-<div>
-    <button class="backgroun-blue">Exportar CSV</button>
-    <button class="backgroun-red">Exportar SPREADSHEET</button>
-</div>
+<p>
+    
+    <%= link_to "CSV", books_path(format: "csv") %>
+    <%= link_to "Excel", books_path(format: "xls") %>
+</p>
 <table>
     <tr>
         <th>titulo</th>
